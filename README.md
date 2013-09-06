@@ -1,3 +1,7 @@
+# NOTE
+Make sure you put the local charm in the required folder structure
+It must be in some_directory/charm/(ubuntu_distro)/storm_charm_
+
 # Overview
 
 This charm provides access to Storm, the distributed realtime computation system. The Charm allows you
