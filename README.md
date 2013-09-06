@@ -1,6 +1,8 @@
 # NOTE
 Make sure you put the local charm in the required folder structure
-It must be in some_directory/charm/(ubuntu_distro)/storm_charm_
+It must be in some_directory/charm/(ubuntu_distro)/storm.  Make sure this project is cloned into a directory called storm (I'm sorry, it's a hack, but I didn't want to call the repository "storm")
+
+my command was `juju deploy -v --repository=/home/my_user/charm/ local:storm stormmaster`
 
 # Overview
 
